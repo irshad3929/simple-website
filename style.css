@@ -1,0 +1,69 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.left img{
+    width:40px;
+    height: 40px;
+}
+
+header{
+    box-shadow: rgba(0, 0, 0, 0.34) 0px 5px 15px;
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 66px;
+}
+
+.container{
+    padding: 0 10vw;
+    
+}
+nav{
+    font-size: 12px;
+    padding-top: 14px;
+}
+nav ul li{
+    list-style-type: none;
+    padding:0 12px;
+}
+
+.section1{
+    background: #f2f2f2;
+}
+.search{
+    width: 34vw;
+    padding: 7px 17px;
+    border: 0.5px solid grey;
+    background: #f7f8fd;
+    border-radius: 5px;
+}
+.homeImg{
+    width: 80vw;
+    margin: 12px 0px;
+}
+.itemImg{
+    width: 9vw;
+    height: 250px;
+    margin: 8px 13px;
+    border: 2px solid rgb(197, 194, 194);
+}
+.marquee{
+    position: relative;
+    color: rgb(197, 102, 38);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.my-2{
+    text-align: center;
+    color: rgb(204, 121, 121);
+    font-weight: bold;
+}
